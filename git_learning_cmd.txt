@@ -1,0 +1,24 @@
+
+
+start a project
+open git bash at the project location
+> git init  /*initialize empty repository+/
+> git status    /Checks for stage file for commiting?
+> git add <file name>  / adds that file to stage/
+> git add .	/will add all the file in that project in stage?
+> git rm --cache <file name>   / removes the file from stage/
+> git config --global user.name "Ankur Majumder"  /add user id/
+> git config --global user.email "ankurmajumder@gmail.com"
+> git commit -m <"Comment">	/ Comment for the change or commit /
+
+To ignore files to be not part of commit or not to be included.
+> touch .gitignore    /add the files to be ignore in .gitignore file/
+To Create a Branch of the exsiting project.
+> git branch <"branch name">      /create new branch of exiting project to test /
+> git checkout <branchname>      / after creating branch to change in to branch /
+> git branch -d <branchname>    / deletes branch if it is merged fully/
+> git branch -D <branchname>   /deletes the branch forcefully/
+> git merge <branchname>      /merges branch to master /
+
+
+
